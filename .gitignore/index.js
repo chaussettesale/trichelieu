@@ -39,4 +39,4 @@ const Discord = require('discord.js')
                             message.channel.send(' ''''''**ping**  **!tourdesentinelle** **!anagrammesroger** **!Déesse** **!chante** ''''''  ')
                              }
                              })
- bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYLUrQ.gSin10CNlao1TPeM7kltokBYzjM')
+ bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYMNAQ.9eabdClNS_vN0DQxD0gfXE5hec8')
