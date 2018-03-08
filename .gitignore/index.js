@@ -15,7 +15,19 @@ const Discord = require('discord.js')
 
  bot.on('message', message => {
         if (message.content === '!tourdesentinelle') {
-        message.channel.send('La tour de sentinelle : vitesse d’attaque rapide --> à utiliser contre les ennemis sans armures ou très peu de vie.')
+        message.channel.send('Tour de sentinelle : vitesse d’attaque rapide \n **à utiliser contre les ennemis sans armures ou très peu de vie.**')
+        }
+      })
+
+ bot.on('message', message => {
+        if (message.content === '!tourdemage') {
+        message.channel.send('Tour de mage : vitesse d’attaque modérée mais supprime les armures \n **à utiliser contre les ennemis avec de l’armure. Attention les charrettes ont presque toutes de l armure. **')
+        }
+      })
+
+ bot.on('message', message => {
+        if (message.content === '!tourdemortier') {
+        message.channel.send('Tour de mortier : dégâts de zone \n **à utiliser sur des groupes d’unités au sol sans armure.**')
         }
       })
 
