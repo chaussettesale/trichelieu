@@ -16,4 +16,10 @@ bot.on('message', message => {
    }
  })
 
+bot.on('message', message => {
+              if (message.content === '!annagrammesroger') {
+              message.channel.send('Roger le tavernier... Ça en fait des anagrammes ! Le rare goret verni. Le rire va te ronger. Roi, la verge rentre !')
+              }
+            })
+
 bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYLUrQ.gSin10CNlao1TPeM7kltokBYzjM')
