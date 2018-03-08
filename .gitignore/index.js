@@ -58,7 +58,7 @@ bot.on('message', message => {
         }
       })
 bot.on('message', message => {
-        if (message.content === '!lancemissile') {
+        if (message.content === '!lancemissiles') {
         message.channel.send('Lance-missiles : Le mortier devient anti-aérien longue portée  \n ** à utiliser sur des groupes d’unités au en l’air sans armure. Attention le Séraphin n’est pas une unité aérienne ! **')
         }
       })
