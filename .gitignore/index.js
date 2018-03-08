@@ -30,6 +30,56 @@ const Discord = require('discord.js')
         message.channel.send('Tour de mortier : dégâts de zone \n **à utiliser sur des groupes d’unités au sol sans armure.**')
         }
       })
+bot.on('message', message => {
+        if (message.content === '!hopital') {
+        message.channel.send('Hôpital : soigne les troupes   \n **à utiliser sur les troupes, aide les troupes fragiles à survivre aux dégâts de zone et permet aux tanks de mieux résister.**')
+        }
+      })
+bot.on('message', message => {
+        if (message.content === '!arbalete') {
+        message.channel.send(' Arbalète : amélioration de la sentinelle avec 2 tirs  \n **à utiliser contre les ennemis sans armure ou très peu de vie.**')
+        }
+      })
+
+bot.on('message', message => {
+        if (message.content === '!tireurelite') {
+        message.channel.send('Tireur d’élite : Tir à longue portée et en cône  \n **à utiliser contre des groupes de troupes sans armure.**')
+        }
+      })
+
+bot.on('message', message => {
+        if (message.content === '!eclair') {
+        message.channel.send('Tour Eclair : amélioration de la tour de mage avec dégâts avec rebond  \n **à utiliser contre les ennemis avec de l’armure. Attention les charrettes ont presque toutes de l\'armure. **')
+        }
+      })
+bot.on('message', message => {
+        if (message.content === '!fournaise') {
+        message.channel.send('Fournaise : attaque rapidement et enlève de l’armure pendant 5 secondes. Permet aux autres troupes de taper plus fort. Ne rate aucune attaque  \n **à utiliser contre des troupes qui esquivent ou avec beaucoup de points de vie et de l’armure. Permet de tuer rapidement.**')
+        }
+      })
+bot.on('message', message => {
+        if (message.content === '!lancemissile') {
+        message.channel.send('Lance-missiles : Le mortier devient anti-aérien longue portée  \n ** à utiliser sur des groupes d’unités au en l’air sans armure. Attention le Séraphin n’est pas une unité aérienne ! **')
+        }
+      })
+bot.on('message', message => {
+        if (message.content === '!canon') {
+        message.channel.send('Canon : amélioration du mortier avec 3 tirs  \n ** à utiliser sur des groupes d’unités au sol sans armure.**')
+        }
+      })
+bot.on('message', message => {
+        if (message.content === '!armurier') {
+        message.channel.send('Armurier : amélioration de l’hôpital, ajoute de l’armure  \n ** à utiliser sur les troupes, aide les troupes fragiles à survivre aux dégâts de zone et permet aux tanks de mieux résister. A préférer sur des troupes fragiles avec de gros dégâts. Attention : plusieurs armureries ne se cumulent pas. **')
+        }
+      })
+bot.on('message', message => {
+        if (message.content === '!tambours') {
+        message.channel.send('Tambours : amélioration de l’hôpital, augmente la vitesse d’attaque   \n ** à utiliser sur les troupes, aide les troupes fragiles à survivre aux dégâts de zone et permet aux tanks de mieux résister. A préférer sur des troupes déjà résistantes qui manquent un peu de puissance. Attention : plusieurs tambours ne se cumulent pas.**')
+        }
+      })
+
+
+
 
       bot.on('message', message => {
                             if (message.content === '!anagrammesroger') {
@@ -48,7 +98,7 @@ const Discord = require('discord.js')
                           })
       bot.on('message', message => {
                             if (message.content === '!help') {
-                            message.channel.send(' Pour me controler il faut taper l\'une des commandes suivantes:\n\n **__Catégorie Stratégie:__**\n\n ```!tourdesentinelle \n!tourdemage \n!tourdemortier ```\n\n **__Catégorie Fun:__**\n\n ```ping``` \n\n **__Catégorie Tricheliade:__**\n\n ```!anagrammesroger \n!déesse \n!chante ``` ')
+                            message.channel.send(' Pour me controler il faut taper l\'une des commandes suivantes:\n\n **__Catégorie Stratégie:__**\n\n ```!tourdesentinelle \n   !arbalete \n   !tireurelite \n!tourdemage \n   !eclair \n   !fournaise \n!tourdemortier \n   !canon \n   !lancemissiles \n!hopital \n   !armurier \n   !tambours ```\n\n **__Catégorie Fun:__**\n\n ```ping``` \n\n **__Catégorie Tricheliade:__**\n\n ```!anagrammesroger \n!déesse \n!chante ``` ')
                              }
                              })
      
