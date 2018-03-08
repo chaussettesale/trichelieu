@@ -15,7 +15,7 @@ const Discord = require('discord.js')
 
  bot.on('message', message => {
         if (message.content === '!tourdesentinelle') {
-        message.channel.send('La tour de sentinelle : vitesse d’attaque rapide --> à utiliser contre les ennemis sans armurse ou très peu de vie.')
+        message.channel.send('La tour de sentinelle : vitesse d’attaque rapide --> à utiliser contre les ennemis sans armures ou très peu de vie.')
         }
       })
 
