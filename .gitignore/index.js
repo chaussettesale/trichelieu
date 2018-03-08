@@ -31,12 +31,12 @@ const Discord = require('discord.js')
                           })
       bot.on('message', message => {
                             if (message.content === '!chante') {
-                            message.channel.send('Pillons le seigneur mes frères et honorons ses sœurs ! Hosanna... hosanna... ose Anna me toucher plus bas... ose anna me tâter par là ! Allez lou ya... toi aussi vient là ! Mon cierge est allumé, la cire prête à couler, pour cette immaculée, c est l heure de communier...')
+                            message.channel.send('Pillons le seigneur mes frères et honorons ses sœurs ! Hosanna... hosanna... ose Anna me toucher plus bas... ose anna me tâter par là ! Allez lou ya... toi aussi vient là ! Mon cierge est allumé, la cire prête à couler, pour cette immaculée, c\'est l\'heure de communier...')
                             }
                           })
       bot.on('message', message => {
                             if (message.content === '!commands') {
-                            message.channel.send(' Pour me controler il faut taper une des commandes suivantes:\n\n **__Catégorie Stratégie:__**\n\n !tourdesentinelle \n\n **__Catégorie Fun:__**\n\n ping \n\n **__Catégorie Tricheliade:__**\n\n !anagrammesroger \n !Déesse \n !chante  ')
+                            message.channel.send(' Pour me controler il faut taper une des commandes suivantes:```\n\n **__Catégorie Stratégie:__**\n\n !tourdesentinelle \n\n **__Catégorie Fun:__**\n\n ping \n\n **__Catégorie Tricheliade:__**\n\n !anagrammesroger \n !Déesse \n !chante ``` ')
                              }
                              })
  bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYMNAQ.9eabdClNS_vN0DQxD0gfXE5hec8')
