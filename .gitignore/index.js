@@ -9,4 +9,11 @@ bot.on('message', message => {
     message.channel.send('pong !')
   }
 })
+
+bot.on('message', message => {
+   if (message.content === '!tourdesentinelle') {
+     message.channel.send('La tour de sentinelle : vitesse d’attaque rapide --> à utiliser contre les ennemis sans armure ou très peu de vie.')
+   }
+ })
+
 bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYLUrQ.gSin10CNlao1TPeM7kltokBYzjM')
