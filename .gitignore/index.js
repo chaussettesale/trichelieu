@@ -36,7 +36,7 @@ const Discord = require('discord.js')
                           })
       bot.on('message', message => {
                             if (message.content === '!commands') {
-                            message.channel.send(' Pour me controler il faut taper une des commandes suivantes:\n\n **__catégorie Stratégie:__**\n\n **!tourdesentinelle** \n\n **__Catégorie Fun:__**\n\n**ping** \n\n **__Catégorie Tricheliade:__**\n\n **!anagrammesroger** \n **!Déesse** \n **!chante**  ')
+                            message.channel.send(' Pour me controler il faut taper une des commandes suivantes:\n\n **__catégorie Stratégie:__**\n\n !tourdesentinelle \n\n **__Catégorie Fun:__**\n\n ping \n\n **__Catégorie Tricheliade:__**\n\n !anagrammesroger \n !Déesse \n !chante  ')
                              }
                              })
  bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYMNAQ.9eabdClNS_vN0DQxD0gfXE5hec8')
