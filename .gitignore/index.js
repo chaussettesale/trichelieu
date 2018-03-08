@@ -36,7 +36,7 @@ const Discord = require('discord.js')
                           })
       bot.on('message', message => {
                             if (message.content === '!commands') {
-                            message.channel.send(' ''''''**ping** \n **!tourdesentinelle** \n **!anagrammesroger** \n **!Déesse** \n **!chante** ''''''  ')
+                            message.channel.send(' ''''''**ping** \n **!tourdesentinelle** **!anagrammesroger** **!Déesse** **!chante** ''''''  ')
                              }
                              })
  bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYLUrQ.gSin10CNlao1TPeM7kltokBYzjM')
