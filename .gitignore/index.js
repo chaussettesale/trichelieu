@@ -41,7 +41,7 @@ const Discord = require('discord.js')
                              })
       bot.on('message', message => {
                             if (message.content === '!a') {
-                                     if($(member) == "Chaussette[Words Master]"){
+                                     if($(member) == "Skullgannon"){
                                       message.channel.send("Maitre!")
                                       }
                                       else if($(member) == "sundy")
