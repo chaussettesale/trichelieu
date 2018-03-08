@@ -21,10 +21,5 @@ bot.on('message', message => {
               message.channel.send('Roger le tavernier... Ça en fait des anagrammes ! Le rare goret verni. Le rire va te ronger. Roi, la verge rentre !')
               }
             })
- bot.on('message', message => {
-              if (message.author === 'Skullgannon') {
-              message.channel.send('mon maître est connecté!')
-              }
-            })
-
+ 
 bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYLUrQ.gSin10CNlao1TPeM7kltokBYzjM')
