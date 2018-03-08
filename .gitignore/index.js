@@ -23,7 +23,7 @@ bot.on('message', message => {
             })
  bot.on('message', message => {
               if (message.author === 'Skullgannon') {
-              message.channel.send('mon maître est connecté!)
+              message.channel.send('mon maître est connecté!')
               }
             })
 
