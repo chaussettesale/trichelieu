@@ -39,19 +39,5 @@ const Discord = require('discord.js')
                             message.channel.send(' Pour me controler il faut taper l\'une des commandes suivantes:\n\n **__Catégorie Stratégie:__**\n\n ```!tourdesentinelle ```\n\n **__Catégorie Fun:__**\n\n ```ping``` \n\n **__Catégorie Tricheliade:__**\n\n ```!anagrammesroger \n!déesse \n!chante ``` ')
                              }
                              })
-      bot.on('message', message => {
-                            if (message.content === '!a') {
-                                     if($(member) == 'Skullgannon#1179'){
-                                      message.channel.send('Maitre!')
-                                      }
-                                      else if($(member) == 'sundy')
-                                      {
-                                      message.channel.send('Maitresse!')
-                                      }
-                                      else
-                                      {
-                                      message.channel.send('salut toi.')
-                                      }
-                                      }
-                                      })
+     
  bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYMNAQ.9eabdClNS_vN0DQxD0gfXE5hec8')
