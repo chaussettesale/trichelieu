@@ -31,5 +31,9 @@ bot.on('message', message => {
                             message.channel.send('Pillons le seigneur mes frères et honorons ses sœurs ! Hosanna... hosanna... ose Anna me toucher plus bas... ose anna me tâter par là ! Allez lou ya... toi aussi vient là ! Mon cierge est allumé, la cire prête à couler, pour cette immaculée, c est l heure de communier...')
                             }
                           })
- 
+ bot.on('message', message => {
+                            if (message.content === '!commands') {
+                            message.channel.send(' **ping**  **!tourdesentinelle**  **!anagrammesroger**  **!Déesse** **!chante**   ')
+                             }
+                             })
 bot.login('NDIxMDU4MTkyNTEzMTcxNDU3.DYLUrQ.gSin10CNlao1TPeM7kltokBYzjM')
