@@ -13,6 +13,44 @@ const Discord = require('discord.js')
    }
  })
 
+bot.on('message', message => {
+   if (message.content === 'Bon... Saurais-tu soigner nos maux ?') {
+   message.channel.send('Qui est-ce ?')
+   }
+ })
+
+bot.on('message', message => {
+   if (message.content === 'Comment ça qui est-ce ?') {
+   message.channel.send('Eh bien... Qui est Nomo ?')
+   }
+ })
+
+bot.on('message', message => {
+   if (message.content === 'Attends... Nos maux ce n\'est pas un nom.') {
+   message.channel.send('Je me doute bien. Ce doit être un pseudo... Tendancieux qui plus est, hein ?')
+   }
+ })
+
+bot.on('message', message => {
+   if (message.content === 'Mais non. Nos maux, c\'est nos bobos quoi !') {
+   message.channel.send('Ah ! Il a un autre surnom ?')
+   }
+ })
+
+bot.on('message', message => {
+   if (message.content === 'Mais non bordel !') {
+   message.channel.send('Bordel ? C\'est dur à porter ça. J\'avais un ami qu\'on appelait couil...')
+   }
+ })
+
+bot.on('message', message => {
+   if (message.content === 'Un mal, des maux! Comme un ail, des aulx...') {
+   message.channel.send('Euh, je vois pas là ! C\'est une Histoire d\'O ?')
+   }
+ })
+
+
+
  bot.on('message', message => {
         if (message.content === '!tourdesentinelle') {
         message.channel.send('Tour de sentinelle : vitesse d’attaque rapide \n **à utiliser contre les ennemis sans armures ou très peu de vie.**')
